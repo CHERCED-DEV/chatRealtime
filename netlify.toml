@@ -1,0 +1,2 @@
+[build]
+  command = "cd client && npm install && npm run build"
