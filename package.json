@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node server/index.js",
     "dev": "nodemon server/index.js",
-    "build": "node server/index.js"
+    "build": "npm run --prefix client build"
   },
   "author": "CHERCED",
   "license": "MIT",
